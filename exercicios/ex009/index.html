@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="foto flexivel">
+    </picture>
+    <h1>Reprodução de áudio</h1>
+    <p>Vamos aprender a reproduzir alguns áudios em HTML5</p>
+    <audio preload ="metadata" controls autoplay loop> 
+        <source src="midias/introgot.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Reprodução de vídeo</h1>
+    <p>Vamos aprender a reproduzir alguns vídeos em HTML5</p>
+    <video src="midias/ankara.mp4" width="600px" type="video/mp4" controls poster="imagens/foto-m.png"></video>
+    <h1>Inserindo vídeos externos</h1>
+    <p>Vídeo externo vindo do <strong>Youtube</strong></p>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/Lo6XmbC4oWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Vídeo externo vindo do <strong>Vimeo</strong></p>
+    <iframe src="https://player.vimeo.com/video/91264375?h=f83e7d5a8b&color=c9ff23&title=0&byline=0&portrait=0" width="600" height="338" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/91264375">HOOTSUITE - Game Of Social Thrones</a> from <a href="https://vimeo.com/clementmorin">Cl&eacute;ment Morin</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+</body>
+</html>
