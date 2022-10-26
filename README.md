@@ -1,10 +1,10 @@
 <div align="center">
-     <h1>  Olá, me chamo Vitto Baroni ! </h1>
+     <h1>  Hi, my name is Vitto Baroni ! </h1>
 </div>
-<h2>Estes sao meus projetos em HTML5 e CSS3: </h2><br>
+<h2>These are my projects in HTML5 e CSS3: </h2><br>
 
 <ul>
-    <li> Site sobre a evolução do mascote do Android --> https://vittobaroni.github.io/projeto-android/
+    <li> Site about the evolution of Android mascot --> https://vittobaroni.github.io/projeto-android/
      </li> 
 </ul>
-<p> IMPORTANTE !!! todos os codigos da pasta "exercicios" são pautados nas atividades do curso de HTML e CSS do Curso em Vídeo
+<p> IMPORTANT !!! All cods in the folder "exercicios" are based in activities of the HTML and CSS course of Curso em Video
